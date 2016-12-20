@@ -34,7 +34,7 @@ int main(void)
     log:
 
     key = getpass(""); // get keys
-    fprintf("\nkeys pressed: %s\n",key);
+    fprintf("\nkeys pressed: %s\n",key); /// to ommit this output simple replace for printf("\n");
 
 
     if (key == '^')
